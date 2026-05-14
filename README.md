@@ -2,6 +2,14 @@
 
 A clean, minimal todo app built with **React 19 + TypeScript + Vite + Tailwind CSS v4** and localStorage persistence.
 
+## ✨ Live Demo
+
+**GitHub Pages:** https://dimageier.github.io/todos
+
+> **One-time setup:** Go to your repo **Settings → Pages**, set "Source" to **GitHub Actions**. The included workflow will automatically deploy on every push to `main`.
+
+(For instant deploys + PR previews, import the repo at [Vercel](https://vercel.com/new).)
+
 ## Features
 
 - ✨ Add new tasks (Enter or + button)
@@ -12,11 +20,7 @@ A clean, minimal todo app built with **React 19 + TypeScript + Vite + Tailwind C
 - 💾 Everything persists automatically in localStorage
 - 📱 Responsive, accessible, and polished
 
-## Live Demo
-
-Coming soon — deployed version will be linked here.
-
-## Getting Started
+## Getting Started (Local)
 
 ```bash
 git clone https://github.com/dimageier/todos.git
