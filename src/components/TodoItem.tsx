@@ -30,12 +30,8 @@ export function TodoItem({ todo, onToggle, onDelete }: TodoItemProps) {
         type="button"
         onClick={() => onDelete(todo.id)}
         className="delete-btn p-1.5 text-slate-400 hover:text-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400 rounded"
-<<<<<<< HEAD
-        aria-label={`Delete "${todo.text}" `}
-=======
-        aria-label={`Delete "${todo.text}"`}
->>>>>>> 80379a0 (Initial commit: clean React + Tailwind todo app with localStorage)
-      >
+
+        aria-label={`Delete "${todo.text}" `}>
         <Trash2 size={17} strokeWidth={2.25} />
       </button>
     </li>
